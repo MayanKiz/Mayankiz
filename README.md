@@ -1,5 +1,5 @@
 
-## 🌐 Socials:
+# 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Rao.mynkk ) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rao.mynkk@gmail.com) 
 
 # 💻 Tech Stack
@@ -17,7 +17,7 @@
   <img src="https://gitlyy.vercel.app/api/music?title=Love%20Story&artist=Taylor%20Swift&player=90s"/>
 </p>
 
-## GitHub Activity
+# GitHub Activity
 
 <img src="https://gitlyy.vercel.app/api/contribution?username=mayankiz&hide_border=true"/>
 
