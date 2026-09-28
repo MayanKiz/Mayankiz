@@ -10,10 +10,10 @@
 
 <img src="https://gitlyy.vercel.app/api/contribution?username=mayankiz&hide_border=true"/>
 
-## 📊 GitHub Activity
+## GitHub Commits
 
 <p align="center">
-  <img src="https://gitlyy.vercel.app/api/contribution?username=mayankiz&hide_border=true" />
+  <img src="https://gitlyy.vercel.app/api/commits?username=MayanKiz&hide_border=true" alt="MayanKiz GitHub commits"/>
 </p>
 
 # 📊 GitHub Stats:
