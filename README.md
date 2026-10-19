@@ -1,5 +1,5 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode1.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode'1.svg" />
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
   <img alt="MayanKiz's GitHub profile" src="dark_mode-1.svg" />
 </picture>
