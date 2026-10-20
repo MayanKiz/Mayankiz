@@ -1,0 +1,45 @@
+name: Update gh-ascii profile cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-ascii-profile-cards
+  cancel-in-progress: false
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Download and animate both themes
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fLsS "https://gh.crafter.run/MayanKiz?theme=dark&cols=140" -o /tmp/dark.svg
+          curl -fLsS "https://gh.crafter.run/MayanKiz?theme=light&cols=140" -o /tmp/light.svg
+          python3 .github/scripts/animate_cards.py /tmp/dark.svg dark_mode.svg
+          python3 .github/scripts/animate_cards.py /tmp/light.svg light_mode.svg
+          grep -q '<svg' dark_mode.svg
+          grep -q '<svg' light_mode.svg
+
+      - name: Commit updated cards
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
+          if git diff --cached --quiet; then
+            echo "Cards are unchanged; nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh gh-ascii profile cards"
+          git push
