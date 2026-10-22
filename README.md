@@ -35,7 +35,9 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=MayanKiz&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=MayanKiz&theme=dark&hide_border=false)<br/>
+
+![](https://streak-stats.demolab.com/?user=MayanKiz&theme=dark&hide_border=false&v=2)
+
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=MayanKiz&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
