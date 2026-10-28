@@ -47,3 +47,19 @@
 
 ---
 
+## 🔐 Cybersecurity Profiles
+
+[![CodeTrace](https://img.shields.io/badge/CodeTrace-Profile-313131)](https://codetrace.com/users/theabbie)
+
+[![Hack The Box](https://img.shields.io/badge/Hack%20The%20Box-Profile-9FEF00?logo=hackthebox&logoColor=111)](https://app.hackthebox.com/profile/370240)
+
+## 📈 GitHub Profile Summary
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MayanKiz&theme=github_dark" alt="MayanKiz's GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MayanKiz&theme=github_dark" alt="MayanKiz's top languages" />
+</p>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MayanKiz&theme=github_dark" alt="MayanKiz's GitHub profile details" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MayanKiz&theme=github_dark&utcOffset=5.5" alt="MayanKiz's productive time" />
