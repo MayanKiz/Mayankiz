@@ -47,12 +47,6 @@
 
 ---
 
-## 🔐 Cybersecurity Profiles
-
-[![CodeTrace](https://img.shields.io/badge/CodeTrace-Profile-313131)](https://codetrace.com/users/theabbie)
-
-[![Hack The Box](https://img.shields.io/badge/Hack%20The%20Box-Profile-9FEF00?logo=hackthebox&logoColor=111)](https://app.hackthebox.com/profile/370240)
-
 ## 📈 GitHub Profile Summary
 
 <p align="center">
