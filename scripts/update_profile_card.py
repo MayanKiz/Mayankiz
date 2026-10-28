@@ -35,7 +35,7 @@ def fetch_all_repos():
 
 
 def replace_line(svg, marker, inner):
-    pattern = re.compile(r'(<text\\b[^>]*>)(.*?)(</text>)', re.DOTALL)
+    pattern = re.compile(r'(<text\b[^>]*>)(.*?)(</text>)', re.DOTALL)
     found = False
 
     def swap(match):
