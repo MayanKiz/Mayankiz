@@ -56,4 +56,3 @@
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MayanKiz&theme=github_dark" alt="MayanKiz's GitHub profile details" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MayanKiz&theme=github_dark&utcOffset=5.5" alt="MayanKiz's productive time" />
