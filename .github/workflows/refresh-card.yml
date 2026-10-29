@@ -1,14 +1,15 @@
-# gh-ascii — daily card refresh
+# gh-ascii — refresh profile cards every 3 hours
 #
-# Re-downloads both themes daily and commits them only when the card changes.
-# GitHub may disable scheduled workflows after 60 days of repository inactivity.
+# Re-downloads both themes and commits only when a card changes.
+# GitHub scheduled workflows can be delayed and may be disabled after
+# 60 days of repository inactivity.
 
 name: Refresh gh-ascii card
 
 on:
   schedule:
-    # Daily at 06:17 UTC. Off-the-hour times are less likely to be delayed.
-    - cron: "17 6 * * *"
+    # Every 3 hours (UTC), at minute 17.
+    - cron: "17 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -46,6 +47,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Card unchanged — nothing to commit."
           else
-            git commit -m "chore: refresh gh-ascii card"
+            git commit -m "chore: refresh gh-ascii profile cards"
             git push
           fi
