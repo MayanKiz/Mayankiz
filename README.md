@@ -56,3 +56,5 @@
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MayanKiz&theme=github_dark" alt="MayanKiz's GitHub profile details" />
 
+![Views Counter](https://views-counter.vercel.app/badge?pageId=MayanKiz%2FYOUR_REPO)   
+
