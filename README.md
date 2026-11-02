@@ -56,5 +56,5 @@
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MayanKiz&theme=github_dark" alt="MayanKiz's GitHub profile details" />
 
-                                           ![](https://komarev.com/ghpvc/?username=your-github-MayanKiz)
+![](https://komarev.com/ghpvc/?username=your-github-MayanKiz)
                                            
